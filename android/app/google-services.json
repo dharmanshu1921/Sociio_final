@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1083862658551",
+    "project_id": "sociio-7b374",
+    "storage_bucket": "sociio-7b374.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083862658551:android:22f603582a9161ca9ad2f2",
+        "android_client_info": {
+          "package_name": "com.example.sociio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083862658551-n8p7k382enfgdk0rm598rersq84a5i7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sociio",
+            "certificate_hash": "f5150fd2889239d8da6e13e30fcac612972c651b"
+          }
+        },
+        {
+          "client_id": "1083862658551-igisfee32mdpan64ev3soq33febrgrj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6GIW6RTQXXRyTqIIsYVJBIQaK5CTmm1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083862658551-igisfee32mdpan64ev3soq33febrgrj3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083862658551-8ooi4m36d8hr9613bv32h8dpj27p2s7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sociio"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

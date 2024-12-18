@@ -1,0 +1,61 @@
+name: sociio
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_spinkit: any
+  image_picker: ^1.1.1 
+  url_launcher: ^6.0.9
+  google_nav_bar: ^5.0.6
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  cloud_firestore:
+  firebase_storage: ^11.7.5
+  fluttertoast:
+  file_picker: ^8.0.3
+  intl:
+  carousel_slider: ^4.2.1
+  intl_phone_number_input:
+  country_code_picker:
+  shared_preferences:
+  provider:
+  sign_in_button: ^3.2.0
+  google_sign_in:
+  url_launcher_plus:
+  url_launcher_android:
+  http:
+  firebase_messaging:
+  firebase_admin:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/Images/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Images/
+    - assets/fonts/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+          style: italic
